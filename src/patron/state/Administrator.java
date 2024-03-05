@@ -7,14 +7,16 @@ public class Administrator {
 		Habitacion h= new Habitacion();
 		h.ocupar();
 		h.limpiar();
-		h.liberar();
-		h.ocupar();
-		h.limpiar();
-		h.liberar();
-		h.ocupar();
 		h.salir();
+		h.liberar();
+		h.limpiar();
 		h.ocupar();
-
+		h.liberar();
+		h.ocupar();
+		h.liberar();
+		h.salir();
+		h.limpiar();
+		h.liberar();	
 	}
 
 }
